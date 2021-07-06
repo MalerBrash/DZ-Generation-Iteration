@@ -42,6 +42,5 @@ if __name__ == '__main__':
     f = IterCounter('countries.json')
     f.start_iter()                       ####### DZ 1
 
-
-for hash in MyHashGen(file):
-    print(hash)                          ####### DZ 2
+    for hash in MyHashGen(file):
+        print(hash)                      ####### DZ 2
